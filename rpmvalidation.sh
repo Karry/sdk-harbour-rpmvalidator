@@ -723,7 +723,7 @@ validatelibraries() {
                                 validation_info "$binary" "Private executable shipped"
                                 ;;
                             *)
-                                validation_error "$binary" "ELF binary in wrong location (only executables are allowed in /$SHARE_NAME/libexec/)"
+                                validation_error "$binary" "Library in wrong location (only executables are allowed in /$SHARE_NAME/libexec/)"
                                 ;;
                         esac
                         ;;
